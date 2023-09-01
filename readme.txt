@@ -1,2 +1,2 @@
 Git is a version control system.
-123456
+Git   is free software distributed under the GPL
