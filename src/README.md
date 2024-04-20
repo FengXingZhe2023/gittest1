@@ -2,15 +2,15 @@
 home: true
 icon: home
 title: 项目主页
-heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+heroImage:  /assets/image/store.jpg
 bgImage: https://theme-hope-assets.vuejs.press/bg/6-light.svg
 bgImageDark: https://theme-hope-assets.vuejs.press/bg/6-dark.svg
 bgImageStyle:
   background-attachment: fixed
-heroText: 项目名称
-tagline: 你可以在这里放置或是整个项目的描述。
+heroText: WMS Pro
+tagline: Business with Demo
 actions:
-  - text: 使用指南
+  - text: 总览
     icon: lightbulb
     link: ./demo/
     type: primary
@@ -19,13 +19,43 @@ actions:
     link: ./guide/
 
 highlights:
-  - header: 易于安装
+  - header: FT模块化问题
     image: /assets/image/box.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/3-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/3-dark.svg
-    highlights:
-      - title: 运行 <code>pnpm create vuepress-theme-hope hope-project</code> 以创建一个新的主题项目。
-      - title: 在已有项目根目录下运行 <code>pnpm create vuepress-theme-hope add .</code> 以在项目中添加主题。
+    features:
+      - title: 收料部门
+        icon: clipboard-check
+        details: 胡林海
+        link: ./ftProblems/materialsReceive
+
+      - title: 电子料部门
+        icon: box-archive
+        details: 王健、童寒、沈秋平
+        link: https://theme-hope.vuejs.press/zh/guide/markdown/hint.html
+
+      - title: 库存管理
+        icon: clipboard-check
+        details: 王伟峰、黄伟建、邵帅威、金佳国
+        link: https://theme-hope.vuejs.press/zh/guide/markdown/others.html#link-check
+
+      - title: 包装部门
+        icon: box-archive
+        details: 沈晓东、施潇俊、郑英、杜云霞、陈梦磊
+        link: https://theme-hope.vuejs.press/zh/guide/markdown/hint.html
+
+      - title: 销售订单及三方仓管理
+        icon: clipboard-check
+        details: 徐耿涛
+        link: https://theme-hope.vuejs.press/zh/guide/markdown/others.html#link-check
+
+      - title: SAP和MES库存管理
+        icon: box-archive
+        details: 陈国英
+        link: https://theme-hope.vuejs.press/zh/guide/markdown/hint.html
+      # highlights:
+    #   - title: 运行 <code>pnpm create vuepress-theme-hope hope-project</code> 以创建一个新的主题项目。
+    #   - title: 在已有项目根目录下运行 <code>pnpm create vuepress-theme-hope add .</code> 以在项目中添加主题。
 
   - header: 在 Markdown 中添加你想要的内容
     description: 我们扩展了标准的 CommonMark 规范，为你添加了成吨功能。
@@ -217,8 +247,8 @@ highlights:
         details: 像相册一样允许你浏览、缩放并分享你的页面图片
         link: https://theme-hope.vuejs.press/zh/guide/feature/photo-swipe.html
 
-  - header: 博客
-    description: 通过主题创建个人博客
+  - header: VUE技术
+    description: Vue写法变更，组合式、响应式？？
     image: /assets/image/blog.svg
     bgImage: https://theme-hope-assets.vuejs.press/bg/5-light.svg
     bgImageDark: https://theme-hope-assets.vuejs.press/bg/5-dark.svg
