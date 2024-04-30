@@ -18,6 +18,8 @@ actions:
   - text: 文档
     link: ./guide/
 
+
+
 highlights:
   - header: FT模块化问题
     image: /assets/image/box.svg
@@ -56,6 +58,23 @@ highlights:
       # highlights:
     #   - title: 运行 <code>pnpm create vuepress-theme-hope hope-project</code> 以创建一个新的主题项目。
     #   - title: 在已有项目根目录下运行 <code>pnpm create vuepress-theme-hope add .</code> 以在项目中添加主题。
+  - header: FT测试记录
+    description: 
+    image: /assets/image/advanced.svg
+    bgImage: https://theme-hope-assets.vuejs.press/bg/4-light.svg
+    bgImageDark: https://theme-hope-assets.vuejs.press/bg/4-dark.svg
+    highlights:
+    - title: 成品包装测试
+      icon: dumbbell
+      details: 成品包装先进先出
+      link: ./ftTest/packageFifo
+
+    - title: 成品拣货测试
+      icon: sitemap
+      details: 在S301的推荐
+      link: https://theme-hope.vuejs.press/zh/guide/advanced/sitemap.html
+
+
 
   - header: iD&MS细分功能介绍
     description: 
