@@ -12,14 +12,14 @@ export default hopeTheme({
 
   iconAssets: "fontawesome-with-brands",
 
-  logo: "https://theme-hope-assets.vuejs.press/logo.svg",
+  logo: "",
 
   repo: "vuepress-theme-hope/vuepress-theme-hope",
 
   docsDir: "src",
 
-  // 导航栏
-  navbar,
+  // // 导航栏
+  // navbar,
 
   // 侧边栏
   sidebar,
