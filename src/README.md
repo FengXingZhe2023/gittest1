@@ -10,13 +10,9 @@ bgImageStyle:
 heroText: WMS Pro
 tagline: Business with Demo
 actions:
-  - text: 总览
-    icon: lightbulb
-    link: ./demo/
-    type: primary
 
-  - text: 文档
-    link: ./guide/
+  - text: 关键词
+    link: ./overview/
 
 
 
