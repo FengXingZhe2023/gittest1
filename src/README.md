@@ -68,7 +68,7 @@ highlights:
     - title: 成品拣货测试
       icon: sitemap
       details: 在S301的推荐
-      link: https://theme-hope.vuejs.press/zh/guide/advanced/sitemap.html
+      link: ./ftTest/deliveryFifo
 
 
 

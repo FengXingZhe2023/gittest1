@@ -211,5 +211,23 @@ ERP系统和MES系统之间的数据交互是两者协同工作的关键。ERP�
 
 <p><b>备注</b></p>
 MarkDown写法查阅
-1、*文字*  左右加*号
+1、*文字*  左右加*号，**文字** strong标签
 2、直接用Html标签,前后要加空行
+3、<br/>换行
+4、#H1 一级标题 ##H1 二级标题
+5、用- 无序列表 数字有序列表，段落可以用列表写
+6、用数字区分段落需要加一个tab隔开,如：1.+tab+文字
+7、用```和```包裹段落
+8、分割线 - - - ---------------------------------------
+9、超链接 This is [an example](http://example.com/ "Title") inline link. 
+[Thislink](http://example.net/) has no title attribute.
+10、 `代码`
+11、图片![Alt text](/path/to/img.jpg "Optional title")
+12、自动链接 <http://example.com/>
+13、emoji  示例：   :smile:
+14、表格 
+|     居中      |         右对齐 | 左对齐         |
+| :-----------: | -------------: | :------------- |
+| 居中使用`:-:` | 右对齐使用`-:` | 左对齐使用`:-` |
+|       b       |      aaaaaaaaa | aaaa           |
+|       c       |           aaaa | a              |
