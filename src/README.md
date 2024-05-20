@@ -65,10 +65,10 @@ highlights:
       details: 成品包装先进先出
       link: ./ftTest/packageFifo
 
-    - title: 成品拣货测试
+    - title: PO批次收料测试
       icon: sitemap
-      details: 在S301的推荐
-      link: ./ftTest/deliveryFifo
+      details: 收料、打印
+      link: ./ftTest/POBatchReceive
 
 
 
